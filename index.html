@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Poosa Srimaan — Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -19,7 +22,7 @@
             <a href="#about" class="nav-link">About</a>
             <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
-            <a href="#contact" class="nav-link">Contact</a>
+            <!-- <a href="#contact" class="nav-link">Contact</a> -->
         </nav>
     </div>
 </header>
@@ -93,65 +96,55 @@
     <section id="projects" class="section projects">
         <div class="container">
             <h2>Projects</h2>
-            <p class="muted">(Add your project details later — a few examples are included as placeholders.)</p>
+            <!-- <p class="muted">(Add your project details later — a few examples are included as placeholders.)</p> -->
             <div class="projects-grid">
                 <div class="project-card">
-                    <h4>Student Registration (Spring Boot)</h4>
-                    <p>Simple Spring Boot backend with MySQL for registering students and viewing records.</p>
+                    <h4>Student management (Java)</h4>
+                    <p>it is a basic console based student management system using java</p>
+                    <a href="https://github.com/poosa-srimaan/JAVA_PRACTISE/tree/main/BankApplication">Link</a>
                 </div>
                 <div class="project-card">
-                    <h4>Data Analysis (Python)</h4>
-                    <p>Exploratory data analysis project using pandas and visualization libraries.</p>
+                    <h4>Bank Application (Java)</h4>
+                    <p>it is a basic console based bank application using java</p>
+                    <a href="https://github.com/poosa-srimaan/JAVA_PRACTISE/tree/main/student_managament_project">Link</a>
                 </div>
                 <div class="project-card">
-                    <h4>Mini Calculator (Java)</h4>
-                    <p>GUI calculator built with Java (learning project).</p>
+                    <h4>Tic-Tac-Toe game (java)</h4>
+                    <p>it is a basic console based tic tac toe game developed using java</p>
+                    <a href="https://github.com/poosa-srimaan/JAVA_PRACTISE/blob/main/AdvanceTicTacToe.java">Link</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Want to collaborate or see my code? Send me a message.</p>
-
-            <form id="contactForm" class="contact-form" onsubmit="return handleForm(event)">
-                <div class="form-row">
-                    <label for="name">Name</label>
-                    <input id="name" name="name" type="text" placeholder="Your name" required />
-                </div>
-
-                <div class="form-row">
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" placeholder="you@example.com" required />
-                </div>
-
-                <div class="form-row">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Hi Poosa — I would like to..." required></textarea>
-                </div>
-
-                <div class="form-row">
-                    <button type="submit" class="btn primary">Send Message</button>
-                    <span id="formMsg" class="form-msg"></span>
-                </div>
-            </form>
-
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:poosasrimaan@gmail.com">poosasrimaan@gmail.com</a></p>
-                <p><strong>College:</strong> ACE Engineering College</p>
-            </div>
-        </div>
-    </section>
 </main>
 
 <footer class="site-footer">
-    <div class="container footer-inner">
-        <p>© <span id="year"></span> Poosa Srimaan · ACE Engineering College</p>
-        <p class="muted">Built with ❤️ — Java · Python · Spring Boot</p>
+  <div class="footer-container">
+    <p>Poosa Srimaan</p>
+    <p>📞 +91 9392232358</p>
+    <p><strong>Email:</strong> <a href="mailto:poosasrimaan@gmail.com">poosasrimaan@gmail.com</a></p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/srimaan-poosa" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a><span>linkedin</span>
+      <br><br>
+
+      <a href="https://github.com/poosa-srimaan" target="_blank">
+        <i class="fab fa-github"></i>
+      </a> <span>github</span>
+      <br><br>
+
+      <a href="https://leetcode.com/u/POOSA_SRIMAAN/" target="_blank">
+        <i class="fas fa-code"></i>
+      </a> <span>leetcode</span>
+      <br><br><br>
     </div>
+  </div>
 </footer>
+
+
 
 <script src="main.js"></script>
 </body>

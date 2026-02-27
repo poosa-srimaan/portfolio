@@ -44,3 +44,11 @@ function handleForm(e){
   document.getElementById('contactForm').reset();
   return false;
 }
+
+function openResume() {
+  document.getElementById("resumeModal").style.display = "flex";
+}
+
+function closeResume() {
+  document.getElementById("resumeModal").style.display = "none";
+}

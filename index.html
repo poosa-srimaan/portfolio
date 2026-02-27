@@ -32,17 +32,17 @@
         <div class="container hero-inner">
             <div class="hero-text">
                 <h1>Hi, I'm <span class="accent">Poosa Srimaan</span></h1>
-                <p class="lead">second-year Data Science student at ACE Engineering College. I love building projects with <strong>Java</strong> and <strong>Python</strong>.</p>
+                <p class="lead">Data Science student at ACE Engineering College. I love building projects with <strong>Java</strong> and <strong>Python</strong>.</p>
                 <div class="cta-row">
-                    <a class="btn primary" href="#projects">See Projects</a>
-                    <a class="btn outline" href="mailto:poosasrimaan@gmail.com">Contact Me</a>
+                    <a class="btn primary" href="resume.pdf" download="">download resume</a>
+                    <button class="btn" onclick="openResume()">Preview Resume</button>
                 </div>
             </div>
             <div class="hero-card">
                 <div class="avatar">PS</div>
                 <div class="card-info">
-                    <h3>Student • Developer</h3>
-                    <p>Skills: Java · Python · Spring Boot · SQL · HTML/CSS/JS</p>
+                    <h3>Student</h3>
+                    <p><strong>Skills</strong> : Java , Python , Spring Boot , MYSQL , HTML/CSS/JS</p>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
     <section id="about" class="section about">
         <div class="container">
             <h2>About Me</h2>
-            <p>“I am a second-year Data Science student interested in backend development, Java, and machine learning. I love building real projects and improving my skills.”</p>
+            <p>“I am Data Science student interested in backend development, Java and web development. I love building real projects and improving my skills.”</p>
             <div class="about-grid">
                 <div class="card">
                     <h4>College</h4>
@@ -144,6 +144,13 @@
   </div>
 </footer>
 
+<!-- resume modal -->
+ <div id="resumeModal" class="modal">
+  <div class="modal-content large">
+    <span class="close" onclick="closeResume()">&times;</span>
+    <iframe src="resume.pdf"></iframe>
+  </div>
+</div>
 
 
 <script src="main.js"></script>
